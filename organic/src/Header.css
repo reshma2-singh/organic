@@ -1,0 +1,38 @@
+.header{
+    height: 90px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.img1{
+    
+    height: 50px;
+    margin-right: 5px;
+    padding: 10px;
+    
+}
+.img2{
+    height: 50px;
+    
+    
+}
+.txt{
+    margin-top: 10px;
+    color: white;
+    padding: 5px;
+    
+}
+.header__center{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    align-items: center;
+    max-width: fit-content;
+    padding: 10px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}

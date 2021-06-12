@@ -1,0 +1,140 @@
+
+.app__header >img{
+  height: 150px;
+
+}
+.header__searchInput{
+  display: flex;
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 30%;
+  outline: none;
+  flex: 1;
+  
+  
+  
+  
+}
+.header__search{
+  display: flex;
+  flex: 1;
+  
+}
+.header__searchIcon{
+  padding: 4px;
+  background-color: cyan;
+  
+
+}
+.header__option{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-weight: 700;
+}
+.header__optionBasket{
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.header__basketCount{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-right: 10PX;
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  
+}
+.home__row{
+  display: flex;
+  margin: 20px;
+}
+.product{
+  margin: 10px;
+  position: relative;
+  justify-content: flex-end;
+  max-height: 400px;
+  width: 100%;
+  min-width: 100px;
+  background-color: white;
+  padding: 20px;
+}
+.product >img{
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+  transition: 100ms ease-in;
+}
+.product >img:hover{
+  transform: scale(1.07);
+}
+.product__price{
+  position: absolute;
+  background-color: bisque;
+  left: 30px;
+  bottom: 60px;
+  padding: 5px;
+  border-radius: 8px;
+
+}
+.product > Button{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f0c14b;
+  text-transform: inherit;
+  font-weight: 700;
+}
+Button:hover{
+  color: #f0c14b;
+}
+
+
+.checkoutProduct{
+  display: flex;
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin: 20px;
+  background-color: lightgrey;
+  
+}
+.checkoutProduct > img {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+
+}
+.btn {
+  
+  background: #f0c14b;
+  border-color: #a88734 #9c7e31 #846a29;
+  margin-top: 20px;
+}
+.parent{
+  display: flex;
+}
+.checkout__ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.header__link{
+  color: white;
+  text-decoration: none;
+}
+.bkt{
+  padding: 100px;
+  margin: 40px;
+  background-color: white;
+}
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}

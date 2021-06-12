@@ -1,0 +1,28 @@
+.banner{
+    border-bottom: 5px solid green;
+    background-color: white !important;
+}
+
+.banner>img{
+    max-width: 1250px;
+    max-height: 1200px;
+    width: 100%;
+    object-fit: contain;
+}
+.banner >h5:hover{
+    color: green;
+}
+.card{
+    display: flex;
+    margin-top: 19px;
+    background-color: white!important;
+    border-bottom: 5px solid green;
+    
+    }
+    .card > h3{
+        font-weight: 500;
+        
+    }
+    .card > img{
+        padding: 10px;
+    }
